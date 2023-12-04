@@ -1,51 +1,51 @@
-Feature,Percentage
-CreateProcessInternalW,6.90%
-ReadProcessMemory,5.75%
-NtGetContextThread,6.19%
-LdrLoadDll,5.89%
-GetSystemTimeAsFileTime,3.37%
-LdrUnloadDll,6.82%
-GetFileAttributesW,1.82%
-NtAllocateVirtualMemory,2.57%
-LdrGetProcedureAddress,2.46%
-NtQueryValueKey,3.78%
-NtWriteVirtualMemory,2.26%
-GetAdaptersAddresses,2.47%
-NtProtectVirtualMemory,4.11%
-NtReadFile,2.68%
-GetNativeSystemInfo,0.82%
-NtFreeVirtualMemory,1.29%
-NtQuerySystemInformation,1.48%
-NtClose,1.48%
-CryptHashData,1.44%
-GlobalMemoryStatusEx,3.59%
-NtResumeThread,2.01%
-NtOpenKey,1.28%
-GetAddrInfoW,1.74%
-NtOpenKeyEx,1.22%
-WriteProcessMemory,1.36%
-GetSystemDirectoryW,1.47%
-NtDelayExecution,1.40%
-GlobalMemoryStatus,1.54%
-GetTimeZoneInformation,1.80%
-GetSystemMetrics,0.80%
-NtCreateKey,1.01%
-GetShortPathNameW,1.18%
-NtWriteFile,1.67%
-NtUnmapViewOfSection,1.09%
-NtCreateFile,1.09%
-RegQueryInfoKeyW,0.57%
-RegEnumValueW,0.53%
-GetFileAttributesExW,1.31%
-SetFileTime,1.58%
-IsDebuggerPresent,0.67%
-closesocket,0.83%
-GetFileVersionInfoW,0.73%
-CreateThread,0.48%
-WSASocketW,0.62%
-NtSetContextThread,0.06%
-NtTerminateProcess,0.20%
-NtMapViewOfSection,1.16%
-GetSystemInfo,1.10%
-CoCreateInstanceEx,0.93%
-GetFileInformationByHandle,1.43%
+Feature	Percentage	API_Category
+CreateProcessInternalW	6.90%	Process Management
+LdrUnloadDll	6.82%	System Management
+NtGetContextThread	6.19%	Thread Management
+LdrLoadDll	5.89%	System Management
+ReadProcessMemory	5.75%	Memory Management
+NtProtectVirtualMemory	4.11%	Kernel Management
+NtQueryValueKey	3.78%	Registry Operations
+GlobalMemoryStatusEx	3.59%	System Information
+GetSystemTimeAsFileTime	3.37%	System Information
+NtReadFile	2.68%	File System
+NtAllocateVirtualMemory	2.57%	Kernel Management
+GetAdaptersAddresses	2.47%	Networking
+LdrGetProcedureAddress	2.46%	System Management
+NtWriteVirtualMemory	2.26%	Kernel Management
+NtResumeThread	2.01%	Thread Management
+GetFileAttributesW	1.82%	File System
+GetTimeZoneInformation	1.80%	System Information
+GetAddrInfoW	1.74%	Networking
+NtWriteFile	1.67%	File System
+SetFileTime	1.58%	File System
+GlobalMemoryStatus	1.54%	System Information
+NtQuerySystemInformation	1.48%	System Information
+NtClose	1.48%	Memory Management
+GetSystemDirectoryW	1.47%	System Information
+CryptHashData	1.44%	Security
+GetFileInformationByHandle	1.43%	File System
+NtDelayExecution	1.40%	Kernel Management
+WriteProcessMemory	1.36%	Memory Management
+GetFileAttributesExW	1.31%	File System
+NtFreeVirtualMemory	1.29%	Kernel Management
+NtOpenKey	1.28%	Registry Operations
+NtOpenKeyEx	1.22%	Registry Operations
+GetShortPathNameW	1.18%	File System
+NtMapViewOfSection	1.16%	Kernel Management
+GetSystemInfo	1.10%	System Information
+NtUnmapViewOfSection	1.09%	Kernel Management
+NtCreateFile	1.09%	File System
+NtCreateKey	1.01%	Registry Operations
+CoCreateInstanceEx	0.93%	Component Object Model (COM)
+closesocket	0.83%	Networking
+GetNativeSystemInfo	0.82%	System Information
+GetSystemMetrics	0.80%	System Information
+GetFileVersionInfoW	0.73%	File System
+IsDebuggerPresent	0.67%	System Information
+WSASocketW	0.62%	Networking
+RegQueryInfoKeyW	0.57%	Registry Operations
+RegEnumValueW	0.53%	Registry Operations
+CreateThread	0.48%	Thread Management
+NtTerminateProcess	0.20%	Kernel Management
+NtSetContextThread	0.06%	Thread Management
