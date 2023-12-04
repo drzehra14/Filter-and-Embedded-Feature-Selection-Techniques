@@ -1,51 +1,51 @@
-Feature,Percentage
-LdrUnloadDll,1.16%
-WriteProcessMemory,0.41%
-NtSetContextThread,0.97%
-IsDebuggerPresent,0.52%
-NtTerminateProcess,1.50%
-NtClose,5.15%
-GetFileAttributesW,1.68%
-NtMapViewOfSection,1.76%
-GetSystemMetrics,1.17%
-NtAllocateVirtualMemory,8.96%
-ReadProcessMemory,0.49%
-NtWriteVirtualMemory,0.07%
-FindResourceExA,3.09%
-NtResumeThread,0.67%
-NtUnmapViewOfSection,0.97%
-NtFreeVirtualMemory,4.67%
-GetSystemTimeAsFileTime,4.06%
-NtProtectVirtualMemory,8.84%
-NtGetContextThread,2.75%
-LdrGetProcedureAddress,6.44%
-LdrLoadDll,7.45%
-CreateProcessInternalW,3.68%
-NtQueryValueKey,3.57%
-NtQuerySystemInformation,1.54%
-NtCreateSection,1.00%
-GetSystemInfo,2.15%
-GetSystemDirectoryW,0.95%
-NtCreateMutant,1.60%
-NtCreateFile,2.09%
-SetErrorMode,3.14%
-GetNativeSystemInfo,1.18%
-NtOpenSection,0.86%
-CoUninitialize,0.81%
-GetShortPathNameW,0.68%
-NtCreateKey,0.20%
-GetAdaptersAddresses,0.40%
-GetFileVersionInfoSizeW,0.47%
-RegQueryValueExW,2.23%
-SetFilePointer,0.72%
-GetFileInformationByHandle,0.45%
-WSAConnect,0.44%
-NtWriteFile,0.79%
-NtSetValueKey,0.07%
-CoInitializeEx,0.82%
-CreateThread,1.09%
-RegQueryInfoKeyW,0.59%
-NtQueryAttributesFile,0.85%
-FindFirstFileExW,1.41%
-GlobalMemoryStatusEx,1.81%
-GetFileAttributesExW,1.65%
+Feature	Percentage	API_Category
+NtAllocateVirtualMemory	8.96%	Kernal Management
+NtProtectVirtualMemory	8.84%	Kernal Management
+LdrLoadDll	7.45%	System Management
+LdrGetProcedureAddress	6.44%	System Management
+NtClose	5.15%	Process Management
+NtFreeVirtualMemory	4.67%	Kernal Management
+GetSystemTimeAsFileTime	4.06%	System Information
+CreateProcessInternalW	3.68%	Process Management
+NtQueryValueKey	3.57%	Registry Operations
+SetErrorMode	3.14%	System Management
+FindResourceExA	3.09%	Resource Management
+NtGetContextThread	2.75%	Thread Management
+RegQueryValueExW	2.23%	Registry Operations
+GetSystemInfo	2.15%	System Information
+NtCreateFile	2.09%	File System
+GlobalMemoryStatusEx	1.81%	System Information
+NtMapViewOfSection	1.76%	Kernal Management
+GetFileAttributesW	1.68%	File System
+GetFileAttributesExW	1.65%	File System
+NtCreateMutant	1.60%	Process Management
+NtQuerySystemInformation	1.54%	System Management
+NtTerminateProcess	1.50%	Kernal Management
+FindFirstFileExW	1.41%	File System
+GetNativeSystemInfo	1.18%	System Information
+GetSystemMetrics	1.17%	System Information
+LdrUnloadDll	1.16%	System Management
+CreateThread	1.09%	Thread Management
+NtCreateSection	1.00%	Kernal Management
+NtSetContextThread	0.97%	Thread Management
+NtUnmapViewOfSection	0.97%	Kernal Management
+GetSystemDirectoryW	0.95%	System Information
+NtOpenSection	0.86%	Kernal Management
+NtQueryAttributesFile	0.85%	File System
+CoInitializeEx	0.82%	COM
+CoUninitialize	0.81%	COM
+NtWriteFile	0.79%	File System
+SetFilePointer	0.72%	File System
+GetShortPathNameW	0.68%	File System
+NtResumeThread	0.67%	Thread Management
+RegQueryInfoKeyW	0.59%	Registry Operations
+IsDebuggerPresent	0.52%	System Information
+ReadProcessMemory	0.49%	Memory Management
+GetFileVersionInfoSizeW	0.47%	Windows API
+GetFileInformationByHandle	0.45%	File System
+WSAConnect	0.44%	Networking
+WriteProcessMemory	0.41%	Memory Management
+GetAdaptersAddresses	0.40%	Networking
+NtCreateKey	0.20%	Registry Operations
+NtWriteVirtualMemory	0.07%	Kernal Management
+NtSetValueKey	0.07%	Registry Operations
