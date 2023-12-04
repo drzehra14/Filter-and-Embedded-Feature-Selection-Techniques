@@ -1,50 +1,50 @@
-Feature,Percentage
-LdrLoadDll,12.35%
-LdrGetProcedureAddress,10.08%
-NtClose,9.04%
-GetSystemMetrics,3.83%
-NtFreeVirtualMemory,6.35%
-SetErrorMode,6.07%
-FindResourceExA,5.71%
-NtOpenKeyEx,3.26%
-GetFileType,2.85%
-NtCreateSection,2.87%
-RegOpenKeyExA,2.54%
-NtDuplicateObject,2.67%
-setsockopt,2.73%
-NtSetValueKey,0.24%
-GetNativeSystemInfo,2.56%
-RegQueryInfoKeyW,0.84%
-RegEnumValueW,2.37%
-NtCreateKey,0.37%
-NtDeviceIoControlFile,2.21%
-CryptDecodeObjectEx,0.86%
-RegEnumKeyW,0.37%
-RegEnumKeyExA,0.26%
-SetEndOfFile,0.32%
-SetFileAttributesW,0.22%
-DeleteFileW,0.69%
-RegDeleteKeyA,0.03%
-NtEnumerateKey,1.00%
-LoadStringA,0.09%
-GetFileInformationByHandle,1.47%
-MoveFileWithProgressW,0.08%
-Thread32Next,0.06%
-SetFilePointer,1.19%
-UuidCreate,0.88%
-DrawTextExW,0.91%
-CryptEncrypt,0.05%
-RegQueryValueExA,1.04%
-NtUnmapViewOfSection,1.66%
-SHGetFolderPathW,1.44%
-WSARecv,0.17%
-FindResourceExW,2.63%
-NtOpenFile,1.26%
-timeGetTime,0.00%
-NtQueryKey,1.07%
-SearchPathW,0.07%
-Process32NextW,0.07%
-CoGetClassObject,0.13%
-GetForegroundWindow,0.39%
-SetFileTime,0.73%
-GetFileSizeEx,0.99%
+Feature	Percentage	API_Category
+LdrLoadDll	12.35%	System Management
+LdrGetProcedureAddress	10.08%	System Management
+NtClose	9.04%	Process Management
+NtFreeVirtualMemory	6.35%	Kernel Management
+SetErrorMode	6.07%	System Management
+FindResourceExA	5.71%	Resource Management
+GetSystemMetrics	3.83%	System Information
+NtOpenKeyEx	3.26%	Registry Operations
+NtCreateSection	2.87%	Kernel Management
+GetFileType	2.85%	File System
+setsockopt	2.73%	Networking
+NtDuplicateObject	2.67%	Kernel Management
+FindResourceExW	2.63%	Resource Management
+GetNativeSystemInfo	2.56%	System Information
+RegOpenKeyExA	2.54%	Registry Operations
+RegEnumValueW	2.37%	Registry Operations
+NtDeviceIoControlFile	2.21%	Input/Output Control
+NtUnmapViewOfSection	1.66%	Kernel Management
+GetFileInformationByHandle	1.47%	File System
+SHGetFolderPathW	1.44%	Shell Services
+NtOpenFile	1.26%	File System
+SetFilePointer	1.19%	File System
+NtQueryKey	1.07%	Registry Operations
+RegQueryValueExA	1.04%	Registry Operations
+NtEnumerateKey	1.00%	Registry Operations
+GetFileSizeEx	0.99%	File System
+DrawTextExW	0.91%	Windows API
+UuidCreate	0.88%	Windows API
+CryptDecodeObjectEx	0.86%	Security
+RegQueryInfoKeyW	0.84%	Registry Operations
+SetFileTime	0.73%	File System
+DeleteFileW	0.69%	File System
+GetForegroundWindow	0.39%	Window Management
+NtCreateKey	0.37%	Registry Operations
+RegEnumKeyW	0.37%	Registry Operations
+SetEndOfFile	0.32%	File System
+RegEnumKeyExA	0.26%	Registry Operations
+NtSetValueKey	0.24%	Registry Operations
+SetFileAttributesW	0.22%	File System
+WSARecv	0.17%	Networking
+CoGetClassObject	0.13%	Component Object Model (COM)
+LoadStringA	0.09%	Windows API
+MoveFileWithProgressW	0.08%	File System
+SearchPathW	0.07%	File System
+Process32NextW	0.07%	System Management
+Thread32Next	0.06%	System Management
+CryptEncrypt	0.05%	Security
+RegDeleteKeyA	0.03%	Registry Operations
+timeGetTime	0.00%	System Information
