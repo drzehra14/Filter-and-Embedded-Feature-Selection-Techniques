@@ -1,51 +1,51 @@
-Feature,Percentage
-NtProtectVirtualMemory,8.63%
-RegEnumValueW,1.75%
-GlobalMemoryStatusEx,0.89%
-CreateToolhelp32Snapshot,7.85%
-NtQueryInformationFile,1.19%
-NtReadFile,1.92%
-socket,1.08%
-NtDuplicateObject,1.21%
-WSAStartup,3.33%
-NtDelayExecution,2.37%
-closesocket,3.30%
-NtOpenThread,0.35%
-NtAllocateVirtualMemory,9.00%
-CreateProcessInternalW,5.17%
-FindResourceExW,0.55%
-GetSystemDirectoryW,0.96%
-CertControlStore,0.96%
-NtCreateKey,0.65%
-UuidCreate,0.22%
-Module32FirstW,5.03%
-GetVolumePathNamesForVolumeNameW,1.11%
-LoadStringW,2.20%
-SetUnhandledExceptionFilter,2.71%
-GetFileSizeEx,0.48%
-NtSetInformationFile,0.88%
-LdrLoadDll,7.23%
-GetFileInformationByHandle,0.59%
-NtQueryAttributesFile,0.48%
-NtOpenProcess,1.29%
-CoCreateInstance,2.06%
-CreateDirectoryW,0.91%
-NtGetContextThread,1.10%
-RtlAddVectoredExceptionHandler,1.01%
-RtlAddVectoredContinueHandler,0.47%
-NtOpenSection,0.88%
-NtCreateSection,1.45%
-NtOpenKey,4.64%
-__exception__,2.05%
-RegQueryInfoKeyW,0.35%
-NtDeviceIoControlFile,2.07%
-NtQueryDirectoryFile,1.12%
-IsDebuggerPresent,0.50%
-connect,0.29%
-WriteConsoleA,0.25%
-NtEnumerateKey,0.80%
-NtEnumerateValueKey,1.05%
-NtResumeThread,1.12%
-GetFileAttributesW,1.94%
-LookupPrivilegeValueW,1.91%
-ReadProcessMemory,0.62%
+Feature	Percentage	API_Category
+NtAllocateVirtualMemory	9.00%	Kernel Management
+NtProtectVirtualMemory	8.63%	Kernel Management
+CreateToolhelp32Snapshot	7.85%	System Management
+LdrLoadDll	7.23%	System Management
+CreateProcessInternalW	5.17%	Process Management
+Module32FirstW	5.03%	System Management
+NtOpenKey	4.64%	Registry Operations 
+WSAStartup	3.33%	Networking
+closesocket	3.30%	Networking
+SetUnhandledExceptionFilter	2.71%	Error Handling
+NtDelayExecution	2.37%	Kernel Management
+LoadStringW	2.20%	Windows API
+NtDeviceIoControlFile	2.07%	Input/Output Control
+CoCreateInstance	2.06%	Component Object Model 
+__exception__	2.05%	Error Handling
+GetFileAttributesW	1.94%	File System
+NtReadFile	1.92%	File System
+LookupPrivilegeValueW	1.91%	Security
+RegEnumValueW	1.75%	Registry Operations 
+NtCreateSection	1.45%	Kernel Management
+NtOpenProcess	1.29%	Kernel Management
+NtDuplicateObject	1.21%	Kernel Management
+NtQueryInformationFile	1.19%	File System
+NtQueryDirectoryFile	1.12%	File System
+NtResumeThread	1.12%	Thread Management
+GetVolumePathNamesForVolumeNameW	1.11%	File System
+NtGetContextThread	1.10%	Thread Management
+socket	1.08%	Networking
+NtEnumerateValueKey	1.05%	Registry Operations 
+RtlAddVectoredExceptionHandler	1.01%	Error Handling
+GetSystemDirectoryW	0.96%	System Information
+CertControlStore	0.96%	Security
+CreateDirectoryW	0.91%	File System
+GlobalMemoryStatusEx	0.89%	System Information
+NtSetInformationFile	0.88%	File System
+NtOpenSection	0.88%	Kernel Management
+NtEnumerateKey	0.80%	Registry Operations 
+NtCreateKey	0.65%	Registry Operations 
+ReadProcessMemory	0.62%	Memory Management
+GetFileInformationByHandle	0.59%	File System
+FindResourceExW	0.55%	Resource Management
+IsDebuggerPresent	0.50%	System Information
+GetFileSizeEx	0.48%	File System
+NtQueryAttributesFile	0.48%	File System
+RtlAddVectoredContinueHandler	0.47%	Error Handling
+NtOpenThread	0.35%	Thread Management
+RegQueryInfoKeyW	0.35%	Registry Operations 
+connect	0.29%	Networking
+WriteConsoleA	0.25%	Windows API
+UuidCreate	0.22%	Windows API
